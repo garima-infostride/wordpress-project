@@ -1,0 +1,10 @@
+2021-08-19T16:48:32+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 181
+
+2021-08-19T16:48:35+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 181
+
+2021-08-19T16:50:31+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 181
+
+2021-08-19T16:50:35+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 181
+
+2021-08-19T16:52:32+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 151
+
