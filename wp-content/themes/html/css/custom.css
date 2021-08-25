@@ -1,0 +1,378 @@
+body{
+	background-color: #ffffff;
+	font-family: 'AvenirNextCyr-Regular';
+}
+@font-face {
+  font-family: 'AvenirNextCyr-Regular';
+  src: url('../fonts/AvenirNextCyr-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvenirNextCyr-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/AvenirNextCyr-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AvenirNextCyr-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvenirNextCyr-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'AvenirNextCyr-Medium';
+  src: url('../fonts/AvenirNextCyr-Medium.ttf')  format('truetype'); 
+}
+@font-face {
+    font-family: 'AvenirNextCyr-Demi';  
+    src: url('../fonts/AvenirNextCyr-Demi.ttf')  format('truetype'); 
+  }
+  @font-face {
+    font-family: 'AvenirNextCyr-MediumItalic';
+    src: url('../fonts/AvenirNextCyr-MediumItalic.ttf')  format('truetype'); 
+  }
+.container{
+	position: relative;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.mt-70{
+	margin-top: 70px;
+}
+.mt-50{
+	margin-top: 50px;
+}
+.navbar{ 
+	padding-top: 20px;
+}
+.bg-dark {
+    background-color: coral;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #798188;
+    font-family: 'AvenirNextCyr-Medium';
+    font-size: 24px;
+    padding: .5rem 2rem;
+    position: relative;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #798188;
+    
+}
+.navbar-dark .navbar-nav .nav-link:after{
+	content: '';
+	height: 10px;
+	width: 10px;
+	background-color: #000;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -5px;
+	left: calc(50% - 5px);
+} 
+.navbar-dark .navbar-nav .nav-link.active:after{
+	background-color: #e02e23;
+}
+
+/*cart page csss*/
+.pageTitle {
+    padding: 25px;
+    background: #5e6064;
+}
+.pageTitle h2{
+	margin: 0;
+    color: #fff;
+    font-family: 'AvenirNextCyr-Medium';
+    font-size: 24px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+}
+.productListing ul{ 
+	margin: 0; 
+	padding: 0;
+}
+.productListing ul li {
+    border-bottom: 1px solid #5f666c;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.itemImage {
+    margin-right: 20px;
+    max-width: 230px;
+    width: 230px;
+    text-align: center;
+}
+.itemDesc {
+    width: calc( 100% - 250px);
+}
+.itemDescTop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.productName h3 {
+    margin: 0 0 5px 0;
+    color: #fff;
+    font-size: 20px;
+}
+.productName p {
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+}
+.productPrice {
+    color: #e02e23;
+    font-size: 18px;
+}
+.itemDescBottom {
+    text-align: right;
+}
+.quantityLabel {
+    color: #fff;
+    font-size: 18px;
+}
+.quantityUnit {
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.btnRemove .btn-secondary{
+	width: 150px;   
+}
+.btn-secondary{
+	background-color: #5e6064;
+    border-color: #5e6064;
+    padding: 10px 16px;
+    font-size: 18px;
+}
+.btn-danger{
+	background-color: #e02e23;
+    border-color: #e02e23;
+    padding: 10px 16px;
+    font-size: 18px;
+}
+.btn-light{
+	background-color: #fff;
+    border-color: #fff;
+    padding: 10px 16px;	
+    font-size: 18px;
+}
+
+/*cart page sidebar csss*/
+.cartRight {
+    background: #2e2f31;
+    padding: 30px;
+}
+.cartRight h3 {
+    color: #fff;
+    font-size: 24px;
+    border-bottom: 1px solid #5f666c;
+    padding-bottom: 8px;
+}
+.coupenCode .form-control {
+    border: 1px solid #5f666c;
+    background: transparent;
+    padding: 12px 15px;
+    color: #fff;
+    font-size: 18px;
+}
+.coupenCode .form-control::placeholder{
+	color: #fff;
+	font-size: 18px;
+}
+.coupenCode .btn-danger {
+    width: 150px;
+}
+.checkoutBox button {
+    display: block;
+    width: 100%;
+}
+.separatorText{
+	color: #fff;
+	font-size: 18px;
+}
+.priceSummery ul {
+    margin: 0;
+    padding: 0;
+}
+.priceSummery ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 18px;
+}
+.priceSummery ul li:last-child {
+    border-top: 1px solid #5f666c;
+    text-transform: uppercase;
+    font-family: 'AvenirNextCyr-Medium';
+    padding-top: 15px;
+}
+.outerCircle {
+    height: 60px;
+    width: 60px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: -100px;
+    top: 50%;
+}
+
+/*thanks page csss*/
+.thanksBlock{
+	background-image: url(../images/back1.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 70%;
+    background-position: top center;
+}
+.thanksBlock h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+.thanksBlock p{
+	color: #fff;
+	 font-size: 22px;
+	 margin-top: 250px;
+     padding-bottom: 30px;
+}
+
+/*checkout page csss*/
+.checkoutBlock {
+    background-image: url(../images/back1.png);
+    background-repeat: no-repeat;
+    background-position: center 30%;
+}
+.bgRed{
+    background-color: #e02e23;
+}
+.bgGray{
+    background-color: #2e2f31;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+.form-check-label {
+    color: #fff;
+    font-size: 20px;
+}
+.formContainer .form-label{
+    font-size: 18px; 
+    color: #fff;
+}
+.formContainer .form-label span{
+    color: #e02e23;
+}
+.formContainer .form-control {
+    border: 1px solid #5f666c;
+    background: transparent;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 0;
+}
+.form-check .checkOutBorder{
+    background: transparent;
+    border: 1px solid #fff;
+}
+.checkoutBlock .w-75{
+    max-width: 780px;
+}
+
+/*Product page csss*/
+.productdetail h2{
+    font-family: 'AvenirNextCyr-Demi';
+    color: #fff;
+    font-size: 40px;
+    margin-top: -10px;
+}
+.ratingBox{
+    border-bottom: 1px solid #5f666c;
+}
+.starBox i{
+    color: #0281bf;
+    font-size: 20px;
+}
+.rateQntyBox {
+    color: #5f666c;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: 'AvenirNextCyr-Medium';
+}
+.productDesc h3 {
+    color: #5f666c;
+    font-size: 24px;
+    font-family: 'AvenirNextCyr-MediumItalic';
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.productDesc p{
+    font-family: 'AvenirNextCyr-Medium';
+    color: #5f666c;
+    font-size: 18px;
+}
+.filterBox h4 {
+    color: #fff;
+    font-family: 'AvenirNextCyr-Medium';
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.filterBoxWrap{
+    display: flex;
+}
+.filterItem p {
+    font-family: 'AvenirNextCyr-Medium';
+    color: #5f666c;
+    font-size: 20px;
+    position: absolute;
+    bottom: -35px;
+    margin: 0;
+}
+.filterItem {
+    height: 80px;
+    width: 80px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 35px;
+}
+.filterItem.active {
+    border-bottom: 1px solid #fff;
+}
+.filterItem1 {
+    background-image: url(../images/sfp.png);
+}
+.filterItem2 {
+    background-image: url(../images/sfp1.png);
+}
+.filterItem3 {
+    background-image: url(../images/sfp2.png);
+}
+.filterItem4 {
+    background-image: url(../images/sfp3.png);
+}
+.filterItem input {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.finalPrice{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'AvenirNextCyr-Medium';
+}
+.productdetail .checkoutBox {
+    border-top: 1px solid #5f666c;
+}
+.productdetail .checkoutBox .btn {
+    max-width: 250px;
+}
+

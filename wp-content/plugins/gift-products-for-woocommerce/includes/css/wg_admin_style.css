@@ -1,0 +1,168 @@
+.ocwg_container {
+    width: 95%;
+}
+.ocwg_container ul.tabs {
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    list-style: none;
+}
+.ocwg_container ul.tabs li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.ocwg_container ul.tabs li.current {
+    background: #dfdfdf;
+    color: #000000;
+}
+.ocwg_container .tab-content {
+    display: none;
+    background: #dfdfdf;
+    padding: 15px 0;
+}
+.ocwg_container .tab-content.current {
+    display: inherit;
+}
+.ocwg_container .ocwg_attribute_div {
+    width: 100%;
+    display: inline-block;
+}
+.ocwg_container .ocwg_label_div {
+    display: inline-block;
+    width: 160px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 35px;
+}
+.ocwg_container .ocwg_input_div {
+    width: 75%;
+    display: inline-block;
+    float: left;
+}
+.ocwg_container .ocwg_child_div {
+    display: inline-block;
+    width: 100%;
+}
+.ocwg_container h2.ocwg_des_head {
+    margin: 0;
+    padding: 10px;
+    background-color: #607D8B;
+    color: #fff;
+    text-transform: uppercase;
+}
+.ocwg_child_div > div {
+    display: inline-block;
+    width: 100%;
+}
+input#ocwg_btn_space {
+    margin-top: 20px;
+}
+.ocwg_radio input {
+    margin: 0 15px;
+}
+.ocwg_radio input:first-child {
+    margin-left: 0;
+}
+.ocwg_elimsg {
+    width: 350px;
+}
+.ocwg_grp_main {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 15px 0;
+}
+input#ocwg_btn_space:hover, input#ocwg_btn_space:hover {
+    outline: none;
+    text-decoration: none;
+}
+.ocwg_desc {
+  display: block;
+  margin-top: 2px;
+}
+.ocwg_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+.ocwg_ratesup_notice_main {
+    display: inline-block;
+    width: 100%;
+}
+.ocwg_rateus_notice, .ocwg_support_notice {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    color: #fff;
+    background-color: #fb5f51;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 70px;
+}
+.ocwg_rateus_notice h3, .ocwg_support_notice h3 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.ocwg_rateus_notice label, .ocwg_support_notice label {
+    font-size: 16px;
+}
+.ocwg_support_notice {
+    background-color: #2f3337;
+    margin-left: 2%;
+}
+.ocwg_rateus_notice a, .ocwg_support_notice a {
+    color: #fff;
+}
+.ocwg_rtusnoti_left {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+.ocwg_rtusnoti_right {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.ocwg_rtusnoti_right img {
+    width: 50px;
+    height: auto;
+}
+.ocwg_donate_main {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    width: 95.3%;
+    border: 1px solid #e3bbac;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 15px;
+}
+.ocwg_donate_main img {
+    height: 32px;
+}
+.ocwg_donate_main > * {
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+}
+.ocwg_donate_main h3 {
+    font-size: 15px;
+}
+.ocwg_donate_form {
+    display: flex;
+}
+.ocwg_donate_main .button {
+    text-align: center;
+}
+label.ocwg_pro_link {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}

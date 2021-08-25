@@ -1,0 +1,84 @@
+2021-08-20T17:06:28+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 207
+
+2021-08-20T17:08:28+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 211
+
+2021-08-20T17:17:33+00:00 CRITICAL syntax error, unexpected ')' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 200
+
+2021-08-20T17:39:53+00:00 CRITICAL syntax error, unexpected ')' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 200
+
+2021-08-20T17:42:22+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:213
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): discount_free_gift(Object(WC_Cart))
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(145): WC_Cart_Totals->calculate_fee_totals()
+#7 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-ca in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 213
+
+2021-08-20T17:42:37+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:213
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): discount_free_gift(Object(WC_Cart))
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(145): WC_Cart_Totals->calculate_fee_totals()
+#7 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-ca in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 213
+
+2021-08-20T18:15:28+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:206
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): discount_free_gift(Object(WP))
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-includes/class-wp.php(763): do_action_ref_array('wp', Array)
+#4 /var/www/html/Imperial/wp-includes/functions.php(1291): WP->main('')
+#5 /var/www/html/Imperial/wp-blog-header.php(16): wp()
+#6 /var/www/html/Imperial/index.php(17): require('/var/www/html/I...')
+#7 {main}
+  thrown in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 206
+
+2021-08-20T19:18:50+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:279
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): aaptc_add_product_to_cart('')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-settings.php(578): do_action('init')
+#4 /var/www/html/Imperial/wp-config.php(99): require_once('/var/www/html/I...')
+#5 /var/www/html/Imperial/wp-load.php(50): require_once('/var/www/html/I...')
+#6 /var/www/html/Imperial/wp-cron.php(44): require_once('/var/www/html/I...')
+#7 {main}
+  thrown in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 279
+
+2021-08-20T19:19:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:279
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): aaptc_add_product_to_cart('')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-settings.php(578): do_action('init')
+#4 /var/www/html/Imperial/wp-config.php(99): require_once('/var/www/html/I...')
+#5 /var/www/html/Imperial/wp-load.php(50): require_once('/var/www/html/I...')
+#6 /var/www/html/Imperial/wp-cron.php(44): require_once('/var/www/html/I...')
+#7 {main}
+  thrown in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 279
+
+2021-08-20T19:31:03+00:00 CRITICAL syntax error, unexpected ')' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 262
+
+2021-08-20T22:43:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in /var/www/html/Imperial/wp-content/plugins/woocommerce/woocommerce.php on line 47
+
+2021-08-20T22:43:32+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 243
+
+2021-08-20T22:43:36+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 243
+
+2021-08-20T22:43:40+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 243
+
+2021-08-20T22:43:44+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 243
+
+2021-08-20T23:01:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in /var/www/html/Imperial/wp-includes/wp-db.php on line 2056
+
+2021-08-20T23:19:35+00:00 CRITICAL Allowed memory size of 1077936128 bytes exhausted (tried to allocate 20480 bytes) in /var/www/html/Imperial/wp-includes/functions.php on line 624
+
+2021-08-20T23:38:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in /var/www/html/Imperial/wp-includes/functions.php on line 624
+

@@ -1,0 +1,1603 @@
+2021-08-23T14:32:34+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 243
+
+2021-08-23T14:33:01+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 243
+
+2021-08-23T14:33:48+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 243
+
+2021-08-23T14:34:37+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 243
+
+2021-08-23T14:34:40+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 243
+
+2021-08-23T14:35:02+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 243
+
+2021-08-23T14:53:29+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/clas in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 246
+
+2021-08-23T14:54:58+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/clas in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 246
+
+2021-08-23T14:55:05+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/clas in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 246
+
+2021-08-23T14:56:55+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/c in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 246
+
+2021-08-23T14:57:01+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/c in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 246
+
+2021-08-23T14:57:34+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/c in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 246
+
+2021-08-23T14:57:44+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/c in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 246
+
+2021-08-23T14:57:52+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/c in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 246
+
+2021-08-23T14:58:32+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/c in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 246
+
+2021-08-23T14:59:00+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/c in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 246
+
+2021-08-23T15:02:14+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:279
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/c in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 279
+
+2021-08-23T15:02:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:279
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/c in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 279
+
+2021-08-23T15:02:58+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:279
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): woocustom_add_product_to_cart('c8ffe9a587b126f...')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1276): do_action('woocommerce_add...', 'c8ffe9a587b126f...', 124, 1, 0, Array, Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(824): WC_Cart->add_to_cart(124, 1)
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(124)
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Form_Handler::add_to_cart_action('')
+#7 /var/www/html/Imperial/wp-includes/c in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 279
+
+2021-08-23T15:06:22+00:00 CRITICAL syntax error, unexpected ';' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 283
+
+2021-08-23T15:06:23+00:00 CRITICAL syntax error, unexpected ';' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 283
+
+2021-08-23T15:06:24+00:00 CRITICAL syntax error, unexpected ';' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 283
+
+2021-08-23T15:06:25+00:00 CRITICAL syntax error, unexpected ';' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 283
+
+2021-08-23T15:06:51+00:00 CRITICAL syntax error, unexpected '{' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 281
+
+2021-08-23T15:06:58+00:00 CRITICAL syntax error, unexpected '{' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 281
+
+2021-08-23T15:46:53+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T15:47:36+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T15:57:14+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T15:57:20+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T15:57:20+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T15:57:20+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T15:57:20+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T15:57:20+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T15:57:23+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T15:58:01+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T15:59:15+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T16:00:11+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 328
+
+2021-08-23T16:01:56+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 337
+
+2021-08-23T16:03:15+00:00 CRITICAL Cannot redeclare add_gift_if_id_in_cart() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:309) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 359
+
+2021-08-23T16:06:48+00:00 CRITICAL syntax error, unexpected '}' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 357
+
+2021-08-23T16:06:48+00:00 CRITICAL syntax error, unexpected '}' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 357
+
+2021-08-23T16:06:48+00:00 CRITICAL syntax error, unexpected '}' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 357
+
+2021-08-23T16:06:48+00:00 CRITICAL syntax error, unexpected '}' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 357
+
+2021-08-23T16:06:48+00:00 CRITICAL syntax error, unexpected '}' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 357
+
+2021-08-23T16:06:51+00:00 CRITICAL syntax error, unexpected '}' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 357
+
+2021-08-23T16:29:42+00:00 CRITICAL syntax error, unexpected '{' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 360
+
+2021-08-23T16:29:43+00:00 CRITICAL syntax error, unexpected '{' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 360
+
+2021-08-23T16:29:44+00:00 CRITICAL syntax error, unexpected '{' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 360
+
+2021-08-23T16:29:50+00:00 CRITICAL syntax error, unexpected '{' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 360
+
+2021-08-23T16:29:55+00:00 CRITICAL syntax error, unexpected '{' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 360
+
+2021-08-23T16:31:39+00:00 CRITICAL syntax error, unexpected 'not' (T_STRING) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 361
+
+2021-08-23T16:41:15+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 365
+
+2021-08-23T18:25:51+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 364
+
+2021-08-23T18:25:51+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 364
+
+2021-08-23T18:25:51+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 364
+
+2021-08-23T18:25:51+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 364
+
+2021-08-23T18:25:51+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 364
+
+2021-08-23T18:25:52+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 364
+
+2021-08-23T18:25:55+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 364
+
+2021-08-23T18:27:25+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 364
+
+2021-08-23T18:27:33+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 364
+
+2021-08-23T18:28:10+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 364
+
+2021-08-23T18:37:23+00:00 CRITICAL syntax error, unexpected 'WC' (T_STRING) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 382
+
+2021-08-23T18:47:03+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T18:47:38+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T18:47:40+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T18:48:48+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T18:49:08+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T18:55:01+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 383
+
+2021-08-23T18:55:30+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 383
+
+2021-08-23T18:55:47+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T18:55:49+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T18:56:28+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T19:01:12+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T19:01:14+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T19:01:16+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T19:01:54+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 414
+
+2021-08-23T19:02:24+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T19:03:43+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T19:04:13+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T19:04:15+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T19:06:32+00:00 CRITICAL Object of class WC_Cart could not be converted to string in /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1003
+
+2021-08-23T20:05:29+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on boolean in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:228
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): display_custom_field('')
+#1 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/Imperial/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php(33): do_action('woocommerce_bef...')
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/I...')
+#5 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1676): wc_get_template('single-product/...')
+#6 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): woocommerce_simple_add_to_cart('')
+#7 /var/www/html/Imperial/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 /var/www/html in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 228
+
+2021-08-23T20:40:34+00:00 CRITICAL syntax error, unexpected 'cfwc_cart_item_name' (T_STRING) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 313
+
+2021-08-23T20:40:50+00:00 CRITICAL Cannot redeclare cfwc_add_custom_field_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:272) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 291
+
+2021-08-23T20:40:52+00:00 CRITICAL Cannot redeclare cfwc_add_custom_field_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:272) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 291
+
+2021-08-23T20:41:04+00:00 CRITICAL Cannot redeclare cfwc_add_custom_field_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:272) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 291
+
+2021-08-23T20:41:25+00:00 CRITICAL Cannot redeclare cfwc_add_custom_field_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:272) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 291
+
+2021-08-23T20:41:25+00:00 CRITICAL Cannot redeclare cfwc_add_custom_field_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:272) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 291
+
+2021-08-23T20:42:26+00:00 CRITICAL Cannot redeclare cfwc_add_custom_field_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:272) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 291
+
+2021-08-23T20:43:54+00:00 CRITICAL Cannot redeclare cfwc_create_custom_field() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:228) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 249
+
+2021-08-23T20:43:56+00:00 CRITICAL Cannot redeclare cfwc_create_custom_field() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:228) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 249
+
+2021-08-23T20:44:16+00:00 CRITICAL Cannot redeclare cfwc_create_custom_field() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:228) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 249
+
+2021-08-23T20:44:26+00:00 CRITICAL Cannot redeclare cfwc_create_custom_field() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:228) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 249
+
+2021-08-23T20:44:41+00:00 CRITICAL Cannot redeclare cfwc_add_custom_field_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:271) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 290
+
+2021-08-23T20:44:43+00:00 CRITICAL Cannot redeclare cfwc_add_custom_field_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:271) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 290
+
+2021-08-23T20:44:43+00:00 CRITICAL Cannot redeclare cfwc_add_custom_field_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:271) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 290
+
+2021-08-23T20:44:43+00:00 CRITICAL Cannot redeclare cfwc_add_custom_field_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:271) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 290
+
+2021-08-23T20:48:23+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_text_input() in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:240
+Stack trace:
+#0 /var/www/html/Imperial/wp-settings.php(546): include()
+#1 /var/www/html/Imperial/wp-config.php(99): require_once('/var/www/html/I...')
+#2 /var/www/html/Imperial/wp-load.php(50): require_once('/var/www/html/I...')
+#3 /var/www/html/Imperial/wp-admin/admin.php(34): require_once('/var/www/html/I...')
+#4 /var/www/html/Imperial/wp-admin/post.php(12): require_once('/var/www/html/I...')
+#5 {main}
+  thrown in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 240
+
+2021-08-23T20:48:23+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_text_input() in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:240
+Stack trace:
+#0 /var/www/html/Imperial/wp-settings.php(546): include()
+#1 /var/www/html/Imperial/wp-config.php(99): require_once('/var/www/html/I...')
+#2 /var/www/html/Imperial/wp-load.php(50): require_once('/var/www/html/I...')
+#3 /var/www/html/Imperial/wp-admin/admin-ajax.php(22): require_once('/var/www/html/I...')
+#4 {main}
+  thrown in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 240
+
+2021-08-23T21:32:36+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:36+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:36+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:36+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:37+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:37+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:37+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:37+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:44+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:32:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:254) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:47+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:42:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:48+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:43:57+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:08+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:08+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:08+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:08+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:08+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:08+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:08+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:08+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:20+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:20+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:20+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:20+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:20+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:20+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:20+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:20+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:20+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:21+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:21+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:21+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:22+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:22+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:22+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:22+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:22+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:22+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:22+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:24+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:24+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:24+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:24+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:24+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:24+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:24+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:44:24+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:17+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:18+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:18+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:18+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:18+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:18+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:19+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:20+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:21+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:21+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:21+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:21+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:21+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:21+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:21+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:26+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:27+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:27+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:27+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:27+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:27+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:27+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:27+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:27+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:30+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:30+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:30+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:30+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:30+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:30+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:30+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:30+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:30+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:31+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:31+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:31+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:31+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:31+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:31+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:32+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:32+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:45:32+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:26+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:26+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:26+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:26+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:26+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:26+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:26+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:26+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:26+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:29+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:29+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:29+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:29+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:29+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:29+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:29+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:29+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:29+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:32+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:32+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:32+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:32+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:32+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:32+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:32+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:32+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:34+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:34+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:34+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:34+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:34+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:34+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:34+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:34+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:34+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:34+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:37+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:37+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:37+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:37+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:37+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:37+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:38+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:38+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:38+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:38+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:39+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:39+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:39+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:39+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:39+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:39+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:39+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:39+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:39+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:39+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:47:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:39+00:00 CRITICAL syntax error, unexpected '/' in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 286
+
+2021-08-23T21:48:49+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:49+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:49+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:49+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:49+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:49+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:49+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:49+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:49+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:49+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:48:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:00+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:00+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:00+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:00+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:00+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:00+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:00+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:00+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:04+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:47+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:47+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:47+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:47+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:47+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:47+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:47+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:47+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:50+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:53+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:49:56+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:51+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:52+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:55+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:50:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:01+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:02+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:12+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:12+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:12+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:12+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:12+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:12+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:12+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:12+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:12+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:51:12+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:54+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:58+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:59+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:59+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:59+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:59+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:52:59+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:00+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:00+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:03+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:06+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:06+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:06+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:06+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:06+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:06+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:06+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:06+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:10+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:10+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:11+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:11+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:11+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:11+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:11+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:11+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:11+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:15+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:15+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:15+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:15+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:15+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:15+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:15+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:15+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:15+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:44+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:44+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:44+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:44+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:44+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:44+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:44+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:44+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:44+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:45+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T21:53:46+00:00 CRITICAL Cannot redeclare get_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:259) in /var/www/html/Imperial/wp-content/themes/Imperial/footer.php on line 88
+
+2021-08-23T22:22:20+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 365
+
+2021-08-23T22:22:23+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 365
+
+2021-08-23T22:24:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_change_product_price(), 1 passed in /var/www/html/Imperial/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:297
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): wc_change_product_price('10')
+#1 /var/www/html/Imperial/wp-includes/plugin.php(233): WP_Hook->apply_filters('10', Array)
+#2 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php(75): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '10')
+#5 /var/ in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 297
+
+2021-08-23T22:25:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_change_product_price(), 1 passed in /var/www/html/Imperial/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:297
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): wc_change_product_price('10')
+#1 /var/www/html/Imperial/wp-includes/plugin.php(233): WP_Hook->apply_filters('10', Array)
+#2 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php(75): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '10')
+#5 /var/ in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 297
+
+2021-08-23T22:27:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_change_product_price(), 1 passed in /var/www/html/Imperial/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:297
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): wc_change_product_price('10')
+#1 /var/www/html/Imperial/wp-includes/plugin.php(233): WP_Hook->apply_filters('10', Array)
+#2 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php(75): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '10')
+#5 /var/ in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 297
+
+2021-08-23T22:30:48+00:00 CRITICAL Uncaught Error: Unsupported operand types in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:305
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): return_custom_price(Array, Object(WC_Product_Variable))
+#1 /var/www/html/Imperial/wp-includes/plugin.php(233): WP_Hook->apply_filters('10', Array)
+#2 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php(75): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '10')
+#5 /var/www/html/Imperial/wp-includes/class-wp-hook.php(303): WC_Deprecated_Hooks->maybe_handle_deprecated_hook('10', Object(W in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 305
+
+2021-08-23T22:31:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_change_product_price(), 1 passed in /var/www/html/Imperial/wp-includes/class-wp-hook.php on line 305 and exactly 2 expected in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:297
+Stack trace:
+#0 /var/www/html/Imperial/wp-includes/class-wp-hook.php(305): wc_change_product_price('10')
+#1 /var/www/html/Imperial/wp-includes/plugin.php(233): WP_Hook->apply_filters('10', Array)
+#2 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 /var/www/html/Imperial/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php(75): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '10')
+#5 /var/ in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 297
+
+2021-08-23T22:36:10+00:00 CRITICAL Cannot redeclare add_cart_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 307
+
+2021-08-23T22:36:10+00:00 CRITICAL Cannot redeclare add_cart_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 307
+
+2021-08-23T22:36:10+00:00 CRITICAL Cannot redeclare add_cart_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 307
+
+2021-08-23T22:36:10+00:00 CRITICAL Cannot redeclare add_cart_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 307
+
+2021-08-23T22:36:10+00:00 CRITICAL Cannot redeclare add_cart_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 307
+
+2021-08-23T22:36:13+00:00 CRITICAL Cannot redeclare add_cart_item_data() (previously declared in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php:246) in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 307
+
+2021-08-23T22:48:05+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /var/www/html/Imperial/wp-content/themes/Imperial/functions.php on line 223
+

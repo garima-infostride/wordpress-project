@@ -162,7 +162,7 @@ function my_action() {
                  <img src="<?php echo $featured_img_url; ?>" alt="1000X1000">
               </div>
               <h4><?php the_title()?></h4>
-              <span><?php the_content()?></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+              <span><?php the_content()?></span>                                                                                                                                                                                     
             </div>
           </div>
 
@@ -176,14 +176,163 @@ function my_action() {
 	wp_die(); // this is required to terminate immediately and return a proper response
 }
 
-
-add_action( 'after_setup_theme', 'yourtheme_setup' );
+//add_action( 'after_setup_theme', 'yourtheme_setup' );
  
-function yourtheme_setup() {
-    add_theme_support( 'wc-product-gallery-zoom' );
-    add_theme_support( 'wc-product-gallery-lightbox' );
-    add_theme_support( 'wc-product-gallery-slider' );
+// function yourtheme_setup() {
+//     add_theme_support( 'wc-product-gallery-zoom' );
+//     add_theme_support( 'wc-product-gallery-lightbox' );
+//     add_theme_support( 'wc-product-gallery-slider' );
+// }
+
+
+
+
+
+
+add_action( 'template_redirect', 'add_gift_if_id_in_cart' );
+ 
+function add_gift_if_id_in_cart() {
+ 
+   if ( is_admin() ) return;
+   if ( WC()->cart->is_empty() ) return;
+ 
+   $product_bought_id = 135;
+   $product_gifted_id = 139;
+ 
+   // see if product id in cart
+   $product_bought_cart_id = WC()->cart->generate_cart_id( $product_bought_id );
+   $product_bought_in_cart = WC()->cart->find_product_in_cart( $product_bought_cart_id );
+ 
+   // see if gift id in cart
+   $product_gifted_cart_id = WC()->cart->generate_cart_id( $product_gifted_id );
+   $product_gifted_in_cart = WC()->cart->find_product_in_cart( $product_gifted_cart_id );
+ 
+   // if not in cart remove gift, else add gift
+   if ( ! $product_bought_in_cart ) {
+      if ( $product_gifted_in_cart ) WC()->cart->remove_cart_item( $product_gifted_in_cart );
+   } else {
+      if ( ! $product_gifted_in_cart ) WC()->cart->add_to_cart( $product_gifted_id );
+   }
 }
 
 
-?>
+
+
+
+
+
+function cfwc_create_custom_field() {
+$args = array(
+'id' => 'custom_text_field_title',
+'label' => __( 'Custom Text Field Title', 'cfwc' ),
+'class' => 'cfwc-custom-field',
+'desc_tip' => true,
+'description' => __( 'Enter the title of your custom text field.', 'ctwc' ),
+);
+woocommerce_wp_text_input( $args );
+}
+add_action( 'woocommerce_product_options_general_product_data', 'cfwc_create_custom_field' );
+
+
+//saving the custom field
+function cfwc_save_custom_field( $post_id ) {
+$product = wc_get_product( $post_id );
+$title = isset( $_POST['custom_text_field_title'] ) ? $_POST['custom_text_field_title'] : '';
+$product->update_meta_data( 'custom_text_field_title', sanitize_text_field( $title ) );
+$product->save();
+}
+add_action( 'woocommerce_process_product_meta', 'cfwc_save_custom_field' );
+
+//display 
+function cfwc_display_custom_field() {
+global $post;
+// Check for the custom field value
+$product = wc_get_product( $post->ID );
+$title = $product->get_meta( 'custom_text_field_title' );
+if( $title ) {
+// Only display our field if we've got a value for the field title
+printf(
+'<div class="cfwc-custom-field-wrapper"><label for="custom_field">%s</label><input type="text" id="custom_field" class="custom_fielld" value=""></div>',
+esc_html( $title )
+);
+}
+}
+add_action( 'woocommerce_before_add_to_cart_button', 'cfwc_display_custom_field' );
+
+
+
+//Add the text field as item data to the cart object
+function cfwc_add_custom_field_item_data( $cart_item_data, $product_id, $variation_id, $quantity ) {
+if( ! empty( $_POST['custom_field'] ) ) {
+// Add the item data
+$cart_item_data['title_field'] = $_POST['custom_field'];
+$product = wc_get_product( $product_id ); // Expanded function
+$price = $product->get_price(); // Expanded function
+$cart_item_data['total_price'] = $price + 10; // Expanded function
+}
+return $cart_item_data;
+}
+add_filter( 'woocommerce_add_cart_item_data', 'cfwc_add_custom_field_item_data', 10, 4 );
+
+
+
+//Update the price in the cart
+function cfwc_before_calculate_totals( $cart_obj ) {
+if ( is_admin() && ! defined( 'DOING_AJAX' ) ) {
+return;
+}
+// Iterate through each cart item
+foreach( $cart_obj->get_cart() as $key=>$value ) {
+if( isset( $value['total_price'] ) ) {
+$price = $value['total_price'];
+$value['data']->set_price( ( $price ) );
+}
+}
+}
+add_action( 'woocommerce_before_calculate_totals', 'cfwc_before_calculate_totals', 10, 1 );
+
+//Display the custom field value in the cart
+function cfwc_cart_item_name( $name, $cart_item, $cart_item_key ) {
+if( isset( $cart_item['title_field'] ) ) {
+$name .= sprintf(
+'<p>%s</p>',
+esc_html( $cart_item['title_field'] )
+);
+}
+return $name;
+}
+add_filter( 'woocommerce_cart_item_name', 'cfwc_cart_item_name', 10, 3 );
+
+
+add_action('woocommerce_single_product_summary', 'woocommerce_total_product_price', 128);
+function woocommerce_total_product_price()
+{
+ global $woocommerce, $product;
+ ?>
+ <script>
+ jQuery(function($){
+ var price = <?php echo $product->get_price(); ?>;
+ 
+ currency = '<?php echo get_woocommerce_currency_symbol(); ?>';
+ console.log(price);
+ console.log(currency);
+ $('#custom_field').change(function(){
+  
+ if (!(this.value == '')) {
+ 
+ var product_total = price +10;
+
+ console.log(product_total)
+ 
+ $('p.price .woocommerce-Price-amount bdi').html(currency+product_total.toFixed(2));
+ }
+ else{
+ $('ins .woocommerce-Price-amount bdi').html(currency+price.toFixed(2));
+ }
+ 
+ });
+ });
+ </script>
+ <?php
+}
+?> 
